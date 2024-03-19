@@ -1,8 +1,8 @@
 {
-	"homepage": "https://Temirlan0305.github.io/test-task-app",
 	"name": "test-app",
 	"private": true,
 	"version": "0.0.0",
+	"homepage": "https://Temirlan0305.github.io/test-task-app/",
 	"type": "module",
 	"scripts": {
 		"predeploy": "npm run build",
