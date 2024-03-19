@@ -4,14 +4,14 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [react()],
-	base: 'https://temirlan0305.github.io/test-task-app/',
-	server: {
-		proxy: {
-			'/api': {
-				target: 'https://mockapi.io/projects/65c953efa4fbc162e112c722', // путь
-				changeOrigin: true,
-			},
-		},
-	},
+	base: '/test-task-app/',
+	// server: {
+	// 	proxy: {
+	// 		'/api': {
+	// 			target: 'https://mockapi.io/projects/65c953efa4fbc162e112c722', // путь
+	// 			changeOrigin: true,
+	// 		},
+	// 	},
+	// },
 	assetsInclude: ['**/*.docx', '**/*.doc', '**/*.pptx', '**/*.pdf'],
 })
