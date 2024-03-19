@@ -1,3 +1,4 @@
+import { FC } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Layout } from './components/layout'
@@ -5,7 +6,7 @@ import Note from './pages/Note'
 import NoteCreate from './pages/NoteCreate'
 import NoteView from './pages/NoteView'
 
-function App() {
+const App: FC = () => {
 	return (
 		<Routes>
 			<Route path='/' element={<Layout />}>
