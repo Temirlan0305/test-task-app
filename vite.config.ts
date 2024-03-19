@@ -3,8 +3,8 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: 'https://temirlan0305.github.io/test-task-app/',
 	plugins: [react()],
+	base: 'https://temirlan0305.github.io/test-task-app/',
 	server: {
 		proxy: {
 			'/api': {
