@@ -16,7 +16,7 @@ const queryClient = new QueryClient({
 })
 
 root.render(
-	<BrowserRouter>
+	<BrowserRouter basename={'/test-task-app/'}>
 		<QueryClientProvider client={queryClient}>
 			<App />
 			<ToastContainer
